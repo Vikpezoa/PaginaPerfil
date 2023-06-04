@@ -1,0 +1,203 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Barra de navegación */
+.nav {
+    background-color: rgb(32, 31, 31);
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-title {
+    color: white;
+    padding: 10px 20px;
+    margin-left: 18px;
+}
+
+.nav-links {
+    display: flex;
+    align-content: center;
+    list-style: none;
+    height: 60px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.nav li { 
+    margin: 15px;
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;    
+}
+
+#btn {
+    font-size: 100%;
+    width: 120px;
+    color: white;
+    background-color: rgb(22, 157, 194);
+    border: 3px solid black; 
+    box-shadow: 2px 2px black;
+    padding: 2px;
+    margin-right: 35px;
+}
+
+/* Main */
+.contenerdorMain {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Main izquierdo */
+.tarjeta-usuario {
+    width: 500px;
+    height: 360px;
+    border: 3px solid rgba(109, 107, 107, 0.544);
+    margin-right: 20px;
+}
+
+.header-tarjeta {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(22, 157, 194);
+    margin-bottom: 55px;
+}
+
+.main-tarjeta {
+    margin: 20px;
+}
+.main-tarjeta > h1, h3, p {
+    margin: 10px 0;
+} 
+
+img {
+    width: 25px;
+}
+
+.main-tarjeta img {
+    width: 17px;
+}
+
+#img-circulo {
+    width: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 15px; 
+}
+
+.edit {
+    color: rgb(19, 101, 183);
+    text-decoration: underline;
+}
+
+/* Cuadro Education */
+.cuadroEducacion {
+    width: 500px;
+    height: 250px;
+    border: 3px solid rgba(109, 107, 107, 0.544);
+    margin-top: 20px;   
+}
+
+.header-educacion {
+    color: white;
+    background-color: rgb(32, 31, 31);
+    width: 500px;  
+}
+
+.header-educacion h3 {
+    padding-left: 20px;
+}
+
+.main-education {
+    padding: 10px 20px;
+}
+
+.education-fecha {
+    color: gray;
+}
+
+/* Cuadros a la derecha */
+.headerCuadroDer {
+    width: 250px;
+    background-color: rgb(32, 31, 31);
+}
+
+h3 {
+    display: inline-block;
+}
+
+/* Cuadro superior derecho */
+.contenedorSupDer {
+    width: 250px;
+    height: 160px;
+    border: 3px solid rgb(155, 152, 152); 
+    align-content: center; 
+}
+
+.mainCuadroDerSup {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.columnaIzq p {
+    margin: 10px 15px;
+}
+
+.columnaDer {
+    margin: 20px 10px;
+}
+
+/* Cuadro inferior derecho */
+.contenedorInfDer {
+    width: 250px;
+    height: 280px;
+    border: 3px solid rgb(155, 152, 152);
+    margin-top: 30px;
+}
+
+.mainCuadroDerInf li {
+    list-style: none;
+    margin: 15px;   
+}
+
+.mostrarMas a {
+    text-decoration: underline;
+    color: blue;
+    width: 250px;
+    display: block;
+    padding: 6px 10px;
+}
+
+.mostrarMas p {
+    border-top: 3px solid rgb(155, 152, 152);
+}
+
+#duo-circulo {
+    color: rgba(52, 49, 49, 0.994);
+    background-color:rgb(155, 152, 152);
+    border-radius: 50%;
+    padding: 0 5px;
+}
+
+#quina-ovalo {
+    color: rgba(52, 49, 49, 0.994);
+    background-color: rgb(155, 152, 152);
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.headerCuadroDer {
+    color: rgb(155, 152, 152);
+    text-align: center;
+    padding-bottom: 4px;
+}
